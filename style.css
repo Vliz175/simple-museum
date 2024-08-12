@@ -1,0 +1,69 @@
+/** Font area */
+/*  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal; */
+@import url("https://fonts.googleapis.com/css2?family=Alex+Brush&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  background-color: #998377;
+}
+
+/** style navbra-section */
+#navbar-section {
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+
+#navbar-section li a:hover,
+#navbar-section li a:focus,
+#navbar-section li a:active {
+  color: aliceblue;
+}
+
+#navbar-section .navbar-brand {
+  color: burlywood;
+  font-size: 1.5rem;
+}
+
+/** style row1 */
+/* #row1 {
+  border: 2px solid red;
+  height: 85vh;
+} */
+
+/** style row2 */
+#row2 {
+  /* border: 2px solid red; */
+  margin-top: 1rem;
+}
+
+/** Style row3 */
+#row3 {
+  margin-top: 1rem;
+}
+
+/** Breakpoint Large area */
+@media screen and (max-width: 992px) {
+  #little-head {
+    display: none;
+  }
+
+  #row2 .lead,
+  #row3 .lead {
+    font-size: 0.9rem;
+  }
+}
+
+/** Breakpoint Medium Area */
+@media screen and (max-width: 768px) {
+  .dino-head {
+    display: none;
+  }
+}
